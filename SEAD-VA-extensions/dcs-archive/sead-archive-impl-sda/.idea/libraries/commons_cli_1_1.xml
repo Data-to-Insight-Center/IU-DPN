@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-cli-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Softwares/rabbitmq-java-client-bin-3.2.2/commons-cli-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Softwares/rabbitmq-java-client-bin-3.2.2/commons-io-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Softwares/rabbitmq-java-client-bin-3.2.2/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Softwares/rabbitmq-java-client-bin-3.2.2/rabbitmq-client-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Softwares/rabbitmq-java-client-bin-3.2.2/rabbitmq-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

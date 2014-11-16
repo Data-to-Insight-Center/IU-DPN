@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.dataconservancy.dcs:dcs-id-api:1.1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-id-api/1.1.1-SNAPSHOT/dcs-id-api-1.1.1-20140623.125007-7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-id-api/1.1.1-SNAPSHOT/dcs-id-api-1.1.1-20140623.125007-7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-id-api/1.1.1-SNAPSHOT/dcs-id-api-1.1.1-20140623.125007-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

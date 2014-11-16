@@ -1,0 +1,117 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+SDA cloud archival implementation
+
+
+From: 'an unknown organization'
+  - jakarta-regexp  jakarta-regexp:jakarta-regexp:jar:1.4
+
+  - servlet-api  javax.servlet:servlet-api:jar:2.5
+
+  - XMLUnit for Java (http://xmlunit.sourceforge.net/) xmlunit:xmlunit:jar:1.3
+    License: BSD License  (http://xmlunit.svn.sourceforge.net/viewvc/*checkout*/xmlunit/trunk/xmlunit/LICENSE.txt)
+
+From: 'Apache Software Foundation' (http://jakarta.apache.org/)
+  - HttpClient (http://jakarta.apache.org/httpcomponents/httpclient-3.x/) commons-httpclient:commons-httpclient:jar:3.1
+    License: Apache License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Data Conservancy' (http://dataconservancy.org)
+  - DCS Archival Storage :: Storage API (http://maven.dataconservancy.org/sites/archive/dcs-archive-api/) org.dataconservancy.archive:dcs-archive-api:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Common Services :: Common Utilities (http://maven.dataconservancy.org/sites/common-util/) org.dataconservancy.dcs:dcs-common-util:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Common Services :: ID Service API (http://maven.dataconservancy.org/sites/common-services/dcs-id-api/) org.dataconservancy.dcs:dcs-id-api:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Ingest :: Core Ingest API (http://maven.dataconservancy.org/sites/ingest/dcs-ingest-core) org.dataconservancy.dcs:dcs-ingest-core:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Index :: API (http://maven.dataconservancy.org/sites/index/dcs-index-api) org.dataconservancy.index:dcs-index-api:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Index :: DCP Solr Implementation (http://maven.dataconservancy.org/sites/index/dcs-index-dcp-solr) org.dataconservancy.index:dcs-index-dcp-solr:jar:1.1.1-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Index :: Shared Solr configuration resources (http://maven.dataconservancy.org/sites/index/dcs-index-dcp-solr-resources) org.dataconservancy.index:dcs-index-dcp-solr-resources:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Index :: Solr Support Utility Classes (http://maven.dataconservancy.org/sites/index/dcs-index-solr-support) org.dataconservancy.index:dcs-index-solr-support:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Model :: DCP Object Model (http://maven.dataconservancy.org/sites/model/dcs-model) org.dataconservancy.model:dcs-model:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Model :: DCP Model Builder (http://maven.dataconservancy.org/sites/model/dcs-model-builder) org.dataconservancy.model:dcs-model-builder:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - DCS Model :: DCP XStream Model Builder (http://maven.dataconservancy.org/sites/model/dcs-model-builder-xstream) org.dataconservancy.model:dcs-model-builder-xstream:jar:1.1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - SEAD's extension of dcs Archive API (http://maven.dataconservancy.org/sites/archive/sead-archive-api/) org.seadva.archive:sead-archive-api:jar:1.0.1-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Research Object Model (http://maven.dataconservancy.org/sites/model/sead-model) org.seadva.model:sead-model:jar:1.0.1-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Research Object Model Xstream builder (http://maven.dataconservancy.org/sites/model/sead-model-builder-xstream) org.seadva.model:sead-model-builder-xstream:jar:1.0.1-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'Google' (http://www.google.com/)
+  - Guava (Google Common Libraries) (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:r03
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JCraft,Inc.' (http://www.jcraft.com/)
+  - JSch (http://www.jcraft.com/jsch/) com.jcraft:jsch:jar:0.1.49
+    License: Revised BSD  (http://www.jcraft.com/jsch/LICENSE.txt)
+
+From: 'Joda.org' (http://www.joda.org)
+  - Joda time (http://joda-time.sourceforge.net) joda-time:joda-time:jar:2.0
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.1.1 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.6.1
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.6.1
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Codec (http://commons.apache.org/codec/) commons-codec:commons-codec:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons FileUpload (http://commons.apache.org/fileupload/) commons-fileupload:commons-fileupload:jar:1.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons IO (http://commons.apache.org/io/) commons-io:commons-io:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Common Analyzers (http://lucene.apache.org/java/lucene-parent/lucene-analyzers) org.apache.lucene:lucene-analyzers:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Core (http://lucene.apache.org/java/lucene-parent/lucene-core) org.apache.lucene:lucene-core:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Grouping (http://lucene.apache.org/java/lucene-parent/lucene-grouping) org.apache.lucene:lucene-grouping:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Highlighter (http://lucene.apache.org/java/lucene-parent/lucene-highlighter) org.apache.lucene:lucene-highlighter:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Kuromoji Japanese Morphological Analyzer (http://lucene.apache.org/java/lucene-parent/lucene-kuromoji) org.apache.lucene:lucene-kuromoji:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Memory (http://lucene.apache.org/java/lucene-parent/lucene-memory) org.apache.lucene:lucene-memory:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Miscellaneous (http://lucene.apache.org/java/lucene-parent/lucene-misc) org.apache.lucene:lucene-misc:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Phonetic Analyzer (http://lucene.apache.org/java/lucene-parent/lucene-phonetic) org.apache.lucene:lucene-phonetic:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Queries (http://lucene.apache.org/java/lucene-parent/lucene-queries) org.apache.lucene:lucene-queries:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Spatial (http://lucene.apache.org/java/lucene-parent/lucene-spatial) org.apache.lucene:lucene-spatial:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Spellchecker (http://lucene.apache.org/java/lucene-parent/lucene-spellchecker) org.apache.lucene:lucene-spellchecker:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Solr Core (http://lucene.apache.org/java/solr-parent/solr-core) org.apache.solr:solr-core:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Solr Solrj (http://lucene.apache.org/java/solr-parent/solr-solrj) org.apache.solr:solr-solrj:jar:3.6.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'XStream' (http://xstream.codehaus.org)
+  - XStream Core  com.thoughtworks.xstream:xstream:jar:1.3.1
+    License: BSD style  (http://xstream.codehaus.com/license.html)
+
+
+
+

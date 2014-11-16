@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sead-registry.iml" filepath="$PROJECT_DIR$/sead-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sead-registry-client/sead-registry-client.iml" filepath="$PROJECT_DIR$/sead-registry-client/sead-registry-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sead-registry-jdbc-support/sead-registry-jdbc-support.iml" filepath="$PROJECT_DIR$/sead-registry-jdbc-support/sead-registry-jdbc-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sead-registry-mapper/sead-registry-mapper.iml" filepath="$PROJECT_DIR$/sead-registry-mapper/sead-registry-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sead-registry-webapp/sead-registry-webapp.iml" filepath="$PROJECT_DIR$/sead-registry-webapp/sead-registry-webapp.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.dataconservancy.dcs:dcs-transform-execution:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-transform-execution/1.1.0-SNAPSHOT/dcs-transform-execution-1.1.0-20140619.235306-818.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-transform-execution/1.1.0-SNAPSHOT/dcs-transform-execution-1.1.0-20140619.235306-818-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/dcs/dcs-transform-execution/1.1.0-SNAPSHOT/dcs-transform-execution-1.1.0-20140619.235306-818-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

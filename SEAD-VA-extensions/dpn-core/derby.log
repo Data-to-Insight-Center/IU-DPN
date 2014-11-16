@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+Wed Jun 18 00:22:00 CDT 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0146-ad6c-b203-000012690f60 
+on database directory /Users/Aravindh/Documents/SEAD/database with class loader WebappClassLoader
+  context: /sead-wf
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@392d294f
+ 
+Loaded from file:/usr/local/apache-tomcat-7.0.42/webapps/sead-wf/WEB-INF/lib/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=/Users/Aravindh/Documents/DPN/sead/SEAD-VA-extensions/dpn-core
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.9.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

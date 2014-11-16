@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.dataconservancy.archive:dcs-archive-impl-elm-fs:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/archive/dcs-archive-impl-elm-fs/1.1.0-SNAPSHOT/dcs-archive-impl-elm-fs-1.1.0-20140619.233455-745.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/archive/dcs-archive-impl-elm-fs/1.1.0-SNAPSHOT/dcs-archive-impl-elm-fs-1.1.0-20140619.233455-745-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/archive/dcs-archive-impl-elm-fs/1.1.0-SNAPSHOT/dcs-archive-impl-elm-fs-1.1.0-20140619.233455-745-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a284c96a-77a7-4092-aac3-b8d5ccbff794" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/resources/TarUtil.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/factories/vaRegistry/HibernateVaRegistryDaoFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/factories/vaRegistry/VaRegistryDataPoolFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/services/data/ApplicationContextHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/services/data/DataLayerVaRegistry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/services/data/DataLayerVaRegistryImpl.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/resources/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Agent.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Agent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentProfile.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentProfileDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentProfileDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentProfileDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentProfileDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentProfilePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentProfilePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentProfilePKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentProfilePKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentProfilePKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentProfilePKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentRole.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentRoleDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentRoleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentRoleDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentRoleDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentRolePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AgentRolePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentRolePKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AgentRolePKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentRolePKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AgentRolePKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Aggregation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Aggregation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AggregationDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AggregationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AggregationDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AggregationDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AggregationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AggregationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AggregationPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/AggregationPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AggregationPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/AggregationPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AggregationWrapper.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/AggregationWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/BaseEntity.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/BaseEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/BaseEntityDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/BaseEntityDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/BaseEntityDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/BaseEntityDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/enums/subtype/vaRegistry/BaseEntitySubclassType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/enums/subtype/vaRegistry/BaseEntitySubclassType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/CachedSipStager.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/CachedSipStager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Collection.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Collection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/CollectionDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/CollectionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/CollectionDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/CollectionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../services/bagItRestService/src/test/java/org/seadva/bagit/DPNBagItTest.java" afterPath="$PROJECT_DIR$/../../services/bagItRestService/src/test/java/org/seadva/bagit/DPNBagItTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsg.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsgConsumer.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsgConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsgListener.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNMsgListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationAvailableReply.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationAvailableReply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationInitQuery.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationInitQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationLocationReply.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/main/java/edu/iu/dpn/messaging/DPNReplicationLocationReply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dpn-core/src/test/java/edu/iu/dpn/messaging/DPNSendMessageTest.java" afterPath="$PROJECT_DIR$/../../dpn-core/src/test/java/edu/iu/dpn/messaging/DPNSendMessageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../services/bagItRestService/src/main/java/org/seadva/bagit/event/impl/DPNSipGenerationHandler.java" afterPath="$PROJECT_DIR$/../../services/bagItRestService/src/main/java/org/seadva/bagit/event/impl/DPNSipGenerationHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifier.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifierPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifierPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifierType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataIdentifierType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataIdentifierTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataIdentifierTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataLocation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataLocationDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataLocationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataLocationDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataLocationDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataLocationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/DataLocationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataLocationPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/DataLocationPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataLocationPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/DataLocationPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/DcsDBField.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/DcsDBField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/DcsDBMapper.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/DcsDBMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/java/org/seadva/registry/mapper/DcsDBMapperTest.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/java/org/seadva/registry/mapper/DcsDBMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityContent.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityContent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityContentDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityContentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityContentDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityContentDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityTypePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EntityTypePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityTypePKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EntityTypePKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityTypePKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EntityTypePKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Event.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EventDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EventDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EventDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EventDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EventType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/EventType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EventTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/EventTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EventTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/EventTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/Events.java" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/Events.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/ExternalContentStager.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/ExternalContentStager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/File.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/File.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FileDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FileDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FileDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FileDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/Finisher.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/Finisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Fixity.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Fixity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FixityDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FixityDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FixityDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FixityDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/FixityPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/FixityPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FixityPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FixityPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FixityPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FixityPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Format.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Format.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FormatDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/FormatDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FormatDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/FormatDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgent.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentProfile.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentProfilePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentProfilePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentRole.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentRolePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAgentRolePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAggregation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAggregation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAggregationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IAggregationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IBaseEntity.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IBaseEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ICollection.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ICollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifier.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifierPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifierPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifierType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataIdentifierType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataLocation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataLocationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IDataLocationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityContent.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityContent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityTypePK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEntityTypePK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEvent.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEventType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IEventType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFile.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFixity.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFixity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFixityPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFixityPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFormat.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IFormat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IMetadataReference.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IMetadataReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IMetadataType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IMetadataType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IProfileType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IProfileType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IProperty.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IProperty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelationType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRelationType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRepository.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRoleType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IRoleType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IState.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/IState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ITransition.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ITransition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ITransitionPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/iface/ITransitionPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/Labeller.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/Labeller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/LineageLabeller.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/LineageLabeller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/MessengerService.java" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/MessengerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/MetadataReference.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/MetadataReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/MetadataReferenceDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/MetadataReferenceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/MetadataReferenceDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/MetadataReferenceDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/MetadataType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/MetadataType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/MetadataTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/MetadataTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/MetadataTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/MetadataTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/OreDBMapper.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/main/java/org/seadva/registry/mapper/OreDBMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/ProfileType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/ProfileType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/ProfileTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/ProfileTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/ProfileTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/ProfileTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Property.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Property.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/PropertyDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/PropertyDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/PropertyDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/PropertyDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/QueryServiceSipStager.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/QueryServiceSipStager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/README" afterPath="$PROJECT_DIR$/../../sead-registry/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/ReadingSipStager.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/util/ReadingSipStager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-client/src/main/java/org/seadva/registry/client/RegistryClient.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-client/src/main/java/org/seadva/registry/client/RegistryClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/test/java/org/seadva/registry/service/RegistryRESTTest.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/test/java/org/seadva/registry/service/RegistryRESTTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Relation.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Relation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RelationPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RelationPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RelationType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RelationType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RelationTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RelationTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Repository.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Repository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RepositoryDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RepositoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RepositoryDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RepositoryDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/java/org/seadva/registry/service/ResourceService.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/java/org/seadva/registry/service/ResourceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RoleType.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/RoleType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RoleTypeDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/RoleTypeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RoleTypeDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/RoleTypeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/SeadRegistryIngester.java" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/SeadRegistryIngester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/SimpleMimeCharacterizer.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/SimpleMimeCharacterizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/StagedContentResolver.java" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/StagedContentResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/State.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/State.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/StateDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/StateDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/StateDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/StateDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/TarUtilService.java" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/java/org/dataconservancy/dcs/ingest/services/TarUtilService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Transition.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/Transition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/TransitionDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/TransitionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/TransitionDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/TransitionDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/TransitionPK.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/obj/vaRegistry/TransitionPK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/TransitionPKDao.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/TransitionPKDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/TransitionPKDaoImpl.java" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/src/main/java/org/seadva/registry/database/model/dao/vaRegistry/impl/TransitionPKDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/resources/org/seadva/registry/mapper/Vortex2_Visualization_oaiore.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/resources/org/seadva/registry/mapper/Vortex2_Visualization_oaiore.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/test/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/test/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../services/bagItRestService/src/main/resources/org/seadva/bagit/util/default.properties" afterPath="$PROJECT_DIR$/../../services/bagItRestService/src/main/resources/org/seadva/bagit/util/default.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../utils/initDB/derby.log" afterPath="$PROJECT_DIR$/../../utils/initDB/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/pom.xml" afterPath="$PROJECT_DIR$/../../../DataConservancyCode/dcs-ingest/dcs-ingest-services/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/pom.xml" afterPath="$PROJECT_DIR$/../../dcs-ingest/sead-ingest-services/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-client/pom.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/pom.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-jdbc-support/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/pom.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/pom.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../services/bagItRestService/pom.xml" afterPath="$PROJECT_DIR$/../../services/bagItRestService/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/resources/org/seadva/registry/mapper/sample.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-mapper/src/test/resources/org/seadva/registry/mapper/sample.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../dcs-integration/sead-workflow-integration/src/test/resources/sampleSip.xml" afterPath="$PROJECT_DIR$/../../dcs-integration/sead-workflow-integration/src/test/resources/sampleSip.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sql/type_registry_insert.sql" afterPath="$PROJECT_DIR$/../../sead-registry/sql/type_registry_insert.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../sead-registry/sead-registry-webapp/src/main/webapp/WEB-INF/web.xml" />
+    </list>
+    <ignored path="sead-archive-impl-sda.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sead-archive-impl-sda" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SdaArchiveStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7005">
+              <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SdaArchiveStoreTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/seadva/archive/impl/cloud/SdaArchiveStoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1005">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sftp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/Sftp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="4200">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SdaUserInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaUserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="945">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/utils/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1245">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3378378" vertical-offset="693" max-vertical-offset="2115">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/default.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SDA cloud archival implementation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SDA cloud archival implementation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="y" value="25" />
+    <option name="width" value="1028" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sead-archive-impl-sda" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="5695864b-a9fc-4acc-9c21-3d375969348f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RunManager" selected="Maven.sead-archive-impl-sda [clean]">
+    <configuration default="false" name="sead-archive-impl-sda [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sead-archive-impl-sda [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.sead-archive-impl-sda [clean]" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.sead-archive-impl-sda [package]" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Maven.sead-archive-impl-sda [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.sead-archive-impl-sda [package]" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="sslv3">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a284c96a-77a7-4092-aac3-b8d5ccbff794" name="Default" comment="" />
+      <created>1400776184331</created>
+      <updated>1400776184331</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updated for DPN">
+      <created>1401384090172</created>
+      <updated>1401384090172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="25" width="1028" height="722" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15332031" sideWeight="0.58762884" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2919922" sideWeight="0.58762884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41237113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7845">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seadva/archive/impl/cloud/SdaArchiveStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1005">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/Sftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="4200">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="945">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1530">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="211" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seadva/archive/impl/cloud/SdaArchiveStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="36" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/Sftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="28" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="185" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seadva/archive/impl/cloud/SdaArchiveStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="36" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/Sftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="28" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seadva/archive/impl/cloud/SdaArchiveStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1005">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/Sftp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="4200">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="945">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/SdaArchiveStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7005">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seadva/archive/impl/cloud/utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1530">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3378378" vertical-offset="693" max-vertical-offset="2115">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sead-archive-impl-sda</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7.0_45</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-cli-1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

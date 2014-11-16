@@ -1,0 +1,6 @@
+org.dataconservancy.dcs.ingest
+org.dataconservancy.dcs.ingest.services
+org.dataconservancy.dcs.ingest.services.rules.impl
+org.dataconservancy.dcs.ingest.services.rules.type
+org.dataconservancy.dcs.ingest.services.runners
+org.dataconservancy.dcs.ingest.services.util

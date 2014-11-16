@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.dataconservancy.deposit:dc-deposit-core:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/deposit/dc-deposit-core/1.1.0-SNAPSHOT/dc-deposit-core-1.1.0-20140220.203628-659.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/deposit/dc-deposit-core/1.1.0-SNAPSHOT/dc-deposit-core-1.1.0-20140220.203628-659-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/dataconservancy/deposit/dc-deposit-core/1.1.0-SNAPSHOT/dc-deposit-core-1.1.0-20140220.203628-659-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

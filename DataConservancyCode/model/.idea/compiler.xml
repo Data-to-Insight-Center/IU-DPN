@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dcs-gqm" />
+        <module name="dcs-gqm-builder" />
+        <module name="dcs-gqm-builder-xstream" />
+        <module name="dcs-model" />
+        <module name="dcs-model-builder" />
+        <module name="dcs-model-builder-tests" />
+        <module name="dcs-model-builder-xstream" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dcs-gqm" target="1.6" />
+      <module name="dcs-gqm-builder" target="1.6" />
+      <module name="dcs-gqm-builder-xstream" target="1.6" />
+      <module name="dcs-model" target="1.6" />
+      <module name="dcs-model-builder" target="1.6" />
+      <module name="dcs-model-builder-tests" target="1.6" />
+      <module name="dcs-model-builder-xstream" target="1.6" />
+      <module name="model-pom" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

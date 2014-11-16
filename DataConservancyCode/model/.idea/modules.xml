@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dcs-gqm/dcs-gqm.iml" filepath="$PROJECT_DIR$/dcs-gqm/dcs-gqm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-gqm-builder/dcs-gqm-builder.iml" filepath="$PROJECT_DIR$/dcs-gqm-builder/dcs-gqm-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-gqm-builder-xstream/dcs-gqm-builder-xstream.iml" filepath="$PROJECT_DIR$/dcs-gqm-builder-xstream/dcs-gqm-builder-xstream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-model/dcs-model.iml" filepath="$PROJECT_DIR$/dcs-model/dcs-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-model-builder/dcs-model-builder.iml" filepath="$PROJECT_DIR$/dcs-model-builder/dcs-model-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-model-builder-tests/dcs-model-builder-tests.iml" filepath="$PROJECT_DIR$/dcs-model-builder-tests/dcs-model-builder-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dcs-model-builder-xstream/dcs-model-builder-xstream.iml" filepath="$PROJECT_DIR$/dcs-model-builder-xstream/dcs-model-builder-xstream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-pom.iml" filepath="$PROJECT_DIR$/model-pom.iml" />
+    </modules>
+  </component>
+</project>
+
