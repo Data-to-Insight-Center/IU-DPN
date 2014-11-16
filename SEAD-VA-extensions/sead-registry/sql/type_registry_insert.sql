@@ -42,6 +42,18 @@ insert into metadata_type values('md:14',
 'http://purl.org/dc/terms/','type'
 );
 
+insert into metadata_type values('md:15',
+'','MsgStatus'
+);
+
+insert into metadata_type values('md:16',
+'','TarFileLocation'
+);
+
+insert into metadata_type values('md:17',
+'','CorrelationID'
+);
+
 insert into relation_type values('rl:1',
 'http://www.openarchives.org/ore/terms/','describes'
 );
@@ -124,6 +136,18 @@ insert into data_identifier_type values(
     'id:5',
     'dataone',
      'http://seadva.d2i.indiana.edu'
+);
+
+insert into data_identifier_type values(
+    'id:6',
+    'fixity-md5',
+     ''
+);
+
+insert into data_identifier_type values(
+    'id:7',
+    'fixity-sha1',
+     ''
 );
 
 insert into role_type values(
