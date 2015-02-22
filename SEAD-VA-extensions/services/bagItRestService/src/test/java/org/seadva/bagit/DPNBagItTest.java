@@ -127,7 +127,7 @@ public class DPNBagItTest extends JerseyTest {
         client.getCredentialsProvider().setCredentials(
                 new AuthScope(AuthScope.ANY_HOST, AuthScope.ANY_PORT),
                 new UsernamePasswordCredentials(
-                        "seadva@gmail.com", hashPassword("password")
+                        "username", hashPassword("dummy")
                 ));
         try {
             int code = doDeposit(new File(sipPath));
